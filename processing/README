@@ -1,0 +1,4 @@
+process.py – Takes a .txt file, or "-u http://<URL>.txt"
+webprocess.py – Can handle .htm and .html website
+pdfprocess.py – Takes a .pdf file, or "-u http://<URL>.pdf"
+
