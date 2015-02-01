@@ -8,3 +8,7 @@ def root():
 @app.route('/test')
 def main():
 	return "hello world"
+
+@app.route('/tfile', methods=['POST'])
+def upload_text():
+	return "swag";
