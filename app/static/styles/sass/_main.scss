@@ -1,0 +1,53 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  background-color: $bodybg;
+
+  .container {
+  	margin: 0;
+  	padding: 0;
+  	height: 100%;
+  	width: 100%;
+
+	.view {
+		height: calc(100% - #{$headerHeight});
+		background-color: $viewBg;
+	}
+
+  	.content {
+  		width: 1044px;
+  		margin: 0 auto;
+  	}
+
+  	#header {
+  		font-size: 2em;
+  		height: $headerHeight;
+  		line-height: $headerHeight;
+  		background-color: $headerBg;
+  		color: $headerText;
+  		font-family: 'PT Sans Narrow', sans-serif;
+  		font-weight: 700; 
+  		box-sizing: border-box;
+  		border-bottom: 2px solid darken($headerBg, 20%);
+  	}
+
+  	.navbar {
+		height: $navHeight;
+  	}
+  }
+}
+
+.parrallaxPane {
+  display: block;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: $parrallaxPaneBg;
+  border-top: 2px solid darken($parrallaxPaneBg, 20%);
+  border-bottom: 2px solid darken($parrallaxPaneBg, 20%);
+}

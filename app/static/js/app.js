@@ -1,5 +1,5 @@
 // Declare app level module which depends on filters, and services
-angular.module('gotsylla', ['ngResource', 'ngRoute', 'ui.bootstrap', 'ui.date'])
+angular.module('gotsylla', ['ngResource', 'ngRoute'])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
